@@ -11,8 +11,6 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install',
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'numpy'])
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'numpy'])
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'pandas'])
 
 import PySimpleGUI as sg
