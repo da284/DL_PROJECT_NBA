@@ -10,9 +10,14 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install',
 'tensorflow'])
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
 'numpy'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'numpy'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'pandas'])
 
 import PySimpleGUI as sg
 import numpy as np
+import pandas
 from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense
@@ -147,7 +152,6 @@ def predict_game(values):
 	model = build_model()
 	filepath = "model_weights.hdf5"
 	model.load_weights(filepath)
-	print(vector, vector.shape)
 	label = model.predict(vector)
 	if label > 0.5:
 		team = values[1]#away team winning
