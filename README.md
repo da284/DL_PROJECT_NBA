@@ -8,5 +8,5 @@ It may execute some library installations.
 
 Notes:
 Our user interface is designated for windows, and will not run on linux or mac.
-You might get an error during installations if your windows long path isn't enabled, to fix it use this site: 
+You might get an error during installation if your windows long path isn't enabled, to fix this use this site: 
 https://www.microfocus.com/documentation/filr/filr-4/filr-desktop/t47bx2ogpfz7.html
