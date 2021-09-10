@@ -13,7 +13,6 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install',
 
 import PySimpleGUI as sg
 import numpy as np
-import matplotlib.pyplot as plt
 from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense
